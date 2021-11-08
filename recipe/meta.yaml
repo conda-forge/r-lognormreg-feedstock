@@ -1,4 +1,4 @@
-{% set version = "0.4-0" %}
+{% set version = "0.5-0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/logNormReg_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/logNormReg/logNormReg_{{ version }}.tar.gz
-  sha256: 4da517574a965659717f76e90f66d17f70d5d12b95783ddecd1be02afe516681
+  sha256: 375ed02f681cffedcd3377748847b814e481e71b1027be758817edf0bda96553
 
 build:
   merge_build_host: true  # [win]
