@@ -1,11 +1,11 @@
-About r-lognormreg
-==================
+About r-lognormreg-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lognormreg-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=logNormReg
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lognormreg-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions to fits simple linear regression models with log normal errors and identity link (taking the responses on the original scale). See Muggeo (2018) <doi:10.13140/RG.2.2.18118.16965>.
 
